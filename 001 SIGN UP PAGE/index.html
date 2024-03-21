@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Start a 30-Day Free Trail</h1>
+      <p>Join Over 3 million subscribers using xero to power their business</p>
+      <p>
+        <span class="credit">
+          <span class="check">&#10003;</span> credit card required
+        </span>
+        <span class="online">
+          <span class="check">&#10003;</span> 24/7 online support
+        </span>
+        <span class="cancel">
+          <span class="check">&#10003;</span> cancel any time
+        </span>
+      </p>
+      <form>
+        <label for="firstName" class="hidden">First name</label>
+        <br />
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="First name"
+          required
+        /><br />
+        <br />
+        <label for="lastName">Last name</label><br />
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Last name"
+          required
+        /><br />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        /><br />
+        <br />
+        <label for="phone">Phone</label><br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Phone"
+          required
+        /><br />
+        <br />
+        <label for="location">Location</label>
+        <br />
+        <input
+          type="text"
+          id="location"
+          name="location"
+          placeholder="Enter Your Location"
+          required
+        /><br />
+        <br />
+        <!-- Checkboxes -->
+        <input type="checkbox" id="terms" name="terms" required />
+        <label class="box" for="terms"
+          >I have read and agreed to the terms of use, privacy notice, and offer
+          details</label
+        ><br />
+        <p class="term">Terms of use, Privacy notice, and offer details.</p>
+        <input type="checkbox" id="newsletter" name="newsletter" />
+        <label class="box" for="newsletter"
+          >Please dont send me any marketing communications.</label
+        ><br />
+        <br />
+        <input class="submit" type="submit" value="Next:Confirmation" />
+      </form>
+    </div>
+  </body>
+</html>
