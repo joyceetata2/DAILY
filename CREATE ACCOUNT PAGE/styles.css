@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Styles for <h1> elements */
+h1 {
+  font-family: "Smooch", cursive; /* Set the font family for h1 */
+  font-weight: 400; /* Set the font weight for h1 */
+  font-style: normal; /* Set the font style for h1 */
+  text-align: center; /* Center align the text of h1 */
+}
+
+/* Styles for <p> elements */
+p {
+  text-align: center; /* Center align the text of p */
+}
+
+/* Styles for the main container */
+.container {
+  background-color: #5755fe; /* Set the background color for the container */
+  width: 500px; /* Set the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 10px; /* Add padding for spacing */
+  padding-top: 2px; /* Add top padding */
+}
+
+/* Styles for the form container */
+.form-container {
+  background-color: #9bcf53; /* Set the background color for the form container */
+  width: 100%; /* Make the form container take full width */
+  max-width: 400px; /* Limit the maximum width of the form container */
+  margin: 0 auto; /* Center the form container horizontally */
+  padding: 40px; /* Add padding inside the form container */
+  padding-right: 10px; /* Add right padding */
+}
+
+/* Styles for submit button */
+input[type="submit"] {
+  width: 367px; /* Set the width of the submit button */
+  height: 40px; /* Set the height of the submit button */
+}
+
+/* Styles for email input field */
+input[type="email"] {
+  width: 360px; /* Set the width of the email input field */
+  height: 30px; /* Set the height of the email input field */
+}
+
+/* Additional styles for form details */
+.form-details {
+  height: 30px; /* Set the height of form details */
+}
+
+/* Styles for specific elements with IDs */
+#lName {
+  margin-left: 20px; /* Add left margin for the element with ID "lName" */
+}
+
+#confirm {
+  margin-left: 20px; /* Add left margin for the element with ID "confirm" */
+}
