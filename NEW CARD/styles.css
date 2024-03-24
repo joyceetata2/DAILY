@@ -1,0 +1,94 @@
+/* Reset default styles */
+body {
+  font-family: Arial, sans-serif; /* Set the font family for the whole document */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #333;
+}
+
+/* Center the card vertically and horizontally */
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the container take full height of the viewport */
+}
+
+/* Styling for the card */
+.new-card {
+  background-color: #f3f3f3; /* Set background color */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a 
+  subtle shadow */
+  height: 800px;
+  width: 300px;
+}
+
+/* Style for the "New Card" heading */
+.new {
+  font-size: 18px; /* Set font size */
+  font-weight: bold; /* Set font weight to bold */
+  color: #333; /* Set text color */
+}
+
+/* Style for the Visa image */
+.visa-img {
+  width: 300px; /* Set width of the image */
+  margin-bottom: 50px; /* Add some space above and below the image */
+  display: flex;
+  margin: 0 auto;
+}
+
+/* Style for the form */
+.new-form {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+/* Styling for labels */
+label {
+  font-weight: bold; /* Set font weight to bold */
+  color: #333; /* Set text color */
+}
+
+/* Styling for text inputs and password inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Take up full width of their container */
+  padding: 15px; /* Add padding inside inputs */
+  margin: 5px 0 15px 0; /* Add margin for spacing */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* Styling for the expiration date and CVC/CVV inputs */
+
+#expiryDate {
+  margin-right: 90px;
+  width: 95px;
+}
+#password {
+  margin-left: 10px;
+  width: 95px;
+}
+label[for="password"] {
+  margin-left: 90px;
+}
+
+/* Styling for the submit button */
+#submit {
+  background: linear-gradient(to right, #7d93b7 50%, #9970d8 50%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 45px;
+  width: 250px;
+  margin-top: 15px;
+  text-align: center; /* Center the text horizontally */
+  font-size: large;
+  display: flex;
+  margin: 0 auto;
+}

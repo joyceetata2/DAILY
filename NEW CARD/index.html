@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARD</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="new-card">
+        <p class="new"><span>&#10094;</span> New Card</p>
+        <img class="visa-img" src="./images/card.png" alt="card" />
+        <br />
+        <br />
+        <form class="new-form">
+          <label for="cardnumer">CARD NUMBER</label> <br />
+          <input
+            type="text"
+            id="cardNumber"
+            name="cardNumber"
+            value="7111-611-5111-4111"
+            required
+          />
+          <br />
+          <br />
+          <label for="name">CARDHOLDER NAME</label> <br />
+          <input
+            type="text"
+            id="cardHolder"
+            name="cardHolder"
+            value="Brayden Drevlo"
+            required
+          />
+          <br />
+          <br />
+          <span class="expire">
+            <label for="expiryDate">EXPIRY DATE</label>
+            <label for="password">CVC/CVV</label>
+            <br />
+            <input type="text" id="expiryDate" value="06/2024" required />
+            <input type="password" id="password" value="password" required />
+          </span>
+          <span>
+            <label for="checkbox"></label> <br /><br />
+            <input type="checkbox" id="checkbox" checked />Save your card
+            information
+          </span>
+          <br /><br />
+          <label for="submit"></label>
+          <input type="submit" id="submit" value="Pay Now" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
