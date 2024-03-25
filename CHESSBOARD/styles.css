@@ -1,0 +1,16 @@
+.white {
+  width: 150px;
+  height: 150px;
+  background-color: #f0d9b5;
+}
+.black {
+  width: 150px;
+  height: 150px;
+  background-color: #b58863;
+}
+.container {
+  width: 600px; /* Adjust the width of the chessboard as needed */
+  height: 600px; /* Adjust the height of the chessboard as needed */
+  display: grid;
+  grid-template: repeat(8, 1fr) / repeat(8, 1fr); /* Create 8 columns with equal width */
+}
