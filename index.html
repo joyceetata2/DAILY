@@ -1,33 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>CSS Positioning Exercise</title>
+    <meta charset="UTF-8" />
+    <title>NIGERIA FLAG</title>
     <style>
-      /* Write your code here */
-      .blue-box {
-        background-color: rgba(19, 5, 16, 0.951);
-        border: none;
-        height: 300px;
-        width: 500px;
-        position: absolute;
-        top: 250px;
-        left: 250px;
-      }
-      .red-circle {
-        background-color: rgb(169, 14, 14);
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
+      /* Write your CSS Code here */
+      .flag > p {
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 10px;
         position: relative;
-        left: 250px;
-        top: 150px;
+      }
+
+      .flag {
+        background-color: green;
+        width: 900px;
+        height: 400px;
+        position: relative;
+      }
+
+      .flag > div {
+        width: 275px; /* (900px - 350px) / 2 = 275px */
+        height: 400px;
+        background-color: green;
+        position: absolute;
+        top: 0;
+      }
+
+      .flag > div.left {
+        left: 0;
+      }
+
+      .flag > div.right {
+        right: 0;
+      }
+
+      .flag > div.white {
+        width: 350px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 312.5px; /* (900px - 350px) / 2 = 275px + 37.5px */
       }
     </style>
   </head>
 
   <body>
-    <div class="blue-box">
-      <div class="red-circle"></div>
+    <h1>NIGERIA FLAG</h1>
+    <div class="flag">
+      <p></p>
+      <div class="left"></div>
+      <div class="white"></div>
+      <div class="right"></div>
     </div>
   </body>
 </html>
